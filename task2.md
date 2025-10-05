@@ -20,7 +20,7 @@ This task validates **functional behavior before synthesis 🧩**, ensuring our 
 <pre>git clone https://github.com/manili/VSDBabySoC.git</pre>
 </div>
 
-🔗 **Image Reference:** [Command 1 Screenshot](https://github.com/Gowtham007007/Week-2_RISC-V_Tapeout/blob/main/Images/command1.png)
+🔗 **Image Reference:** [Command 1 Screenshot](https://github.com/GOKUL-D-10/SoC_Tapeout_Week2/blob/main/images/command1.png)
 
 ---
 
@@ -53,7 +53,7 @@ source sp_env/bin/activate</pre>
 <pre>sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/</pre>
 </div>
 
-🔗 **Image Reference:** [Command 2 Screenshot](https://github.com/Gowtham007007/Week-2_RISC-V_Tapeout/blob/main/Images/command2.png)
+🔗 **Image Reference:** [Command 2 Screenshot](https://github.com/GOKUL-D-10/SoC_Tapeout_Week2/blob/main/images/command2.png)
 
 💡 **Tip:** Make sure your virtual environment is **activated** before running SandPiper commands. ✅
 
@@ -102,7 +102,7 @@ source sp_env/bin/activate</pre>
 <pre>gtkwave pre_synth_sim.vcd</pre>
 </div>
 
-🔗 **Image Reference:** [Waveform Screenshot](https://github.com/Gowtham007007/Week-2_RISC-V_Tapeout/blob/main/Images/vsdwave.png)
+🔗 **Image Reference:** [Waveform Screenshot](https://github.com/GOKUL-D-10/SoC_Tapeout_Week2/blob/main/images/vsdwave.png)
 
 ---
 
@@ -130,7 +130,7 @@ source sp_env/bin/activate</pre>
 
 ✅ Confirms correct **digital-to-analog conversion**.
 
-🔗 **Image Reference:** [DAC Waveform](https://github.com/Gowtham007007/Week-2_RISC-V_Tapeout/blob/main/Images/dac_gtkwave.png)
+🔗 **Image Reference:** [DAC Waveform](https://github.com/GOKUL-D-10/SoC_Tapeout_Week2/blob/main/images/dac_gtkwave.png)
 
 ---
 
@@ -140,7 +140,7 @@ Right click → `Out (signal)`
 
 Select → `Data Format → Analog → Step`
 
-🔗 **Image Reference:** [Analog Waveform](https://github.com/Gowtham007007/Week-2_RISC-V_Tapeout/blob/main/Images/analogwave.png)
+🔗 **Image Reference:** [Analog Waveform](https://github.com/GOKUL-D-10/SoC_Tapeout_Week2/blob/main/images/analogwave.png)
 
 💖 DAC output appears as a **smooth real-valued waveform**, showing accurate D/A conversion 🌀
 
